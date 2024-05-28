@@ -86,6 +86,6 @@ BST<std::string> makeTree(const char* filename) {
     }
     tree.addNode(word);
   }
-  file.close();
-  return tree;
+    file.close();
+    return tree;
 }
